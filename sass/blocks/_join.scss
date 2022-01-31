@@ -1,0 +1,17 @@
+.join {
+    height: 200px;
+    padding: 107px 0 0 0;
+    background: #1F98F0;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__text {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 38px;
+        line-height: 46px;
+        color: #FFFFFF;
+    }
+}

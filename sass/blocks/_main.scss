@@ -1,0 +1,111 @@
+.main {
+    min-height: 1200px;
+    padding: 63px 0 128px 0;
+    &__sponsors {
+        &_wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &_title {
+            font-family: Lato;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 21.4632px;
+            line-height: 26px;
+            color: #03101A;
+            margin-bottom: 44px;
+        }
+        &_item {
+            
+        }
+    }
+    &__features {
+        &_wrapper {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 127px;
+        }
+        &_item {
+            &_title {
+                font-family: Lato;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 38px;
+                line-height: 46px;
+                color: #03101A;
+                margin-bottom: 85px;
+            }
+            &_block {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 51px;
+                &:first-child {
+                    margin-top: 0;
+                }
+                &_text {
+                    margin-left: 31px;
+                    &_title {
+                        font-family: Lato;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 21px;
+                        line-height: 25px;
+                        color: #03101A;
+                    }
+                    &_descr {
+                        font-family: Lato;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 150%;
+                        color: rgba(0,0,0,.7);
+                        width: 446px;
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+    }
+    &__testimonials {
+        margin-top: 169px;
+        &_title {
+            font-family: Lato;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 38px;
+            line-height: 46px;
+            color: #03101A;
+            text-align: center;
+        }
+        &_wrapper {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 80px;
+        }
+        &_item {
+            text-align: center;
+            &_name {
+                font-family: Lato;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 21px;
+                line-height: 25px;
+                color: #03101A;
+                margin-top: 20px;
+            }
+            &_descr {
+                font-family: Lato;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 150%;
+                text-align: center;
+                color: #03101A;
+                width: 260px;
+                margin-top: 20px;
+            }
+        }
+    }
+}

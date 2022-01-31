@@ -1,0 +1,18 @@
+.arrow {
+    position: fixed;
+    bottom: 3%;
+    right: 2%;
+    opacity: 0;
+    transition: all .3s;
+    pointer-events: auto;
+    &__visible {
+        opacity: 1;
+        cursor: pointer;
+    }
+    &__image {
+        img {
+            width: 80px;
+            height: 80px;
+        }
+    }
+}

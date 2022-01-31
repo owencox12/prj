@@ -1,0 +1,40 @@
+.button {
+    &--header {
+        width: 184px;
+        height: 52px;
+        background: #FFFFFF;
+        border-radius: 10px;
+        border: none;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        color: #03101A;
+    }
+    &--join {
+        width: 223px;
+        height: 62px;
+        background: #FFFFFF;
+        border-radius: 10px;
+        border: none;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        color: #1F98F0;
+    }
+    &--footer {
+        width: 131px;
+        height: 43.2px;
+        background: #1F98F0;
+        border: none;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 150%;
+        color: #FFFFFF;
+    }
+}

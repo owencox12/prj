@@ -1,0 +1,17 @@
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+.container {
+    max-width: 1141px;
+    margin: 0 auto;
+}
+
+@import 'blocks/promo';
+@import 'blocks/button';
+@import 'blocks/main';
+@import 'blocks/join';
+@import 'blocks/update';
+@import 'blocks/footer';
+@import 'blocks/arrow';
+@import 'blocks/media';

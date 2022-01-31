@@ -1,0 +1,65 @@
+.footer {
+    padding: 100px;
+    min-height: 190px;
+    background: #03101A;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        &_title {
+            font-family: Lato;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 21px;
+            line-height: 25px;
+            color: #FFFFFF;
+            &_first {
+                font-family: Lato;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 30.95px;
+                line-height: 37px;
+                color: #FFFFFF;
+            }
+        }
+        &_descr {
+            font-family: Lato;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 150%;
+            color: rgba(255,255,255,.7);
+            width: 327px;
+            margin-top: 35px;
+        }
+        &_list {
+            &_type {
+                margin: 7.5px 0;
+                &:first-child {
+                    margin-top: 35px;
+                }
+                a {
+                    font-family: Lato;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 150%;
+                    color: rgba(255,255,255,.7);
+                    text-decoration: none;
+                }
+            }
+            &_subs {
+                margin-top: 35px;
+                margin-bottom: 15px;
+                display: flex;
+                &_email {
+                    width: 229px;
+                    height: 41px;
+                    background: #FFFFFF;
+                    border: none;
+                }
+            }
+        }
+    }
+}
